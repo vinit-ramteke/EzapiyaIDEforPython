@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(76, 76, 76);
+color: rgb(255, 85, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(94, 94, 94);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>58</green>
+         <blue>58</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>58</green>
+         <blue>58</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>58</green>
+         <blue>58</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QMenuBar {
+background-color: rgb(64, 64, 64);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(58, 58, 58);
+font: 75 16pt &quot;Calibri&quot;;
+}
+QMenuBar::item {
+color : white;
+margin-top:4px;
+spacing: 3px;
+padding: 1px 10px;
+background: transparent;
+border-radius: 4px;
+}
+
+
+QMenuBar::item:hover {
+background: blue;
+color:red;
+}
+</string>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="styleSheet">
+     <string notr="true">QMenu{
+color: rgb(255, 255, 255);
+}
+QMenu::hover{
+color: #000;
+}</string>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuNew_Project">
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>12</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+     </property>
+     <property name="title">
+      <string>New Project</string>
+     </property>
+     <addaction name="actionSimple_Python_Project"/>
+     <addaction name="actionQT_GUI_Application"/>
+    </widget>
+    <addaction name="actionNew"/>
+    <addaction name="menuNew_Project"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Folder"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_File"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose_File"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionSelect_All"/>
+    <addaction name="separator"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actionFind"/>
+    <addaction name="actionReplace"/>
+    <addaction name="actionGogo"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionCompile"/>
+    <addaction name="separator"/>
+    <addaction name="actionRun"/>
+    <addaction name="separator"/>
+    <addaction name="actionCompile_And_Run"/>
+   </widget>
+   <widget class="QMenu" name="menuDebuge">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Debug</string>
+    </property>
+    <addaction name="actionStart_Debug"/>
+    <addaction name="actionExecute_Next_Line"/>
+    <addaction name="actionExecute_Next_Function"/>
+    <addaction name="actionGoto_Next_Breakpoint"/>
+    <addaction name="actionEnd_Debug"/>
+    <addaction name="actionBreakpoint"/>
+    <addaction name="actionWatch"/>
+    <addaction name="actionsy"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Setting</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAbout_Us">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>About Us</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionMessage_Window"/>
+    <addaction name="actiontool_Window"/>
+    <addaction name="actionProject_Windows"/>
+    <addaction name="actionProparty_Window"/>
+    <addaction name="actionTerminal_Window"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuRun"/>
+   <addaction name="menuDebuge"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuAbout_Us"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>64</red>
+         <green>64</green>
+         <blue>64</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton:!hover {background-color:rgb(30,30, 30)} QToolBar {background:rgb(64, 64, 64)}
+</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave_File"/>
+   <addaction name="separator"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
+   <addaction name="separator"/>
+   <addaction name="actionUndo"/>
+   <addaction name="actionRedo"/>
+   <addaction name="separator"/>
+   <addaction name="actionFind"/>
+   <addaction name="actionReplace"/>
+   <addaction name="actionGogo"/>
+   <addaction name="separator"/>
+   <addaction name="actionCompile"/>
+   <addaction name="actionRun"/>
+   <addaction name="separator"/>
+   <addaction name="actionTerminal_Window"/>
+   <addaction name="separator"/>
+   <addaction name="actionsy"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_message">
+   <property name="minimumSize">
+    <size>
+     <width>89</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDockWidget
+{
+background : lightgreen;
+}
+QDockWidget::title
+{
+background : lightblue;
+}
+QDockWidget QPushButton
+{
+border : 2px solid black;
+background : darkgreen;
+}
+</string>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::BottomDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Message Window</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_message">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTextEdit" name="txtmessage">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_tools">
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDockWidget
+{
+background : lightgreen;
+}
+QDockWidget::title
+{
+background : lightblue;
+}
+QDockWidget QPushButton
+{
+border : 2px solid black;
+background : darkgreen;
+}
+</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Tools Box</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_tools">
+    <layout class="QVBoxLayout" name="verticalLayout_2"/>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_project">
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>111</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDockWidget
+{
+background : lightgreen;
+}
+QDockWidget::title
+{
+background : lightblue;
+}
+QDockWidget QPushButton
+{
+border : 2px solid black;
+background : darkgreen;
+}
+</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Project Window</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_project">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QTreeView" name="treeView">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 14pt &quot;Arial&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_preproty">
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDockWidget
+{
+background : lightgreen;
+}
+QDockWidget::title
+{
+background : lightblue;
+}
+QDockWidget QPushButton
+{
+border : 2px solid black;
+background : darkgreen;
+}
+</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Property Window</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_property">
+    <layout class="QVBoxLayout" name="verticalLayout_4"/>
+   </widget>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/open.png</normaloff>:/icon/icon/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="iconText">
+    <string>New</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/open_folder.png</normaloff>:/icon/icon/open_folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionOpen_Folder">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/open_folder.png</normaloff>:/icon/icon/open_folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Folder</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSave_File">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/save.png</normaloff>:/icon/icon/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/save_as.png</normaloff>:/icon/icon/save_as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Ś</string>
+   </property>
+  </action>
+  <action name="actionClose_File">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/photo/1x/close.png</normaloff>:/icon/photo/1x/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close File</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/photo/1x/logout.png</normaloff>:/icon/photo/1x/logout.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/cut.png</normaloff>:/icon/icon/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/copy.png</normaloff>:/icon/icon/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/paste1.png</normaloff>:/icon/icon/paste1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/undo.png</normaloff>:/icon/icon/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/redo.png</normaloff>:/icon/icon/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/search.png</normaloff>:/icon/icon/search.png</iconset>
+   </property>
+   <property name="text">
+    <string>Find</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionReplace">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/replace.png</normaloff>:/icon/icon/replace.png</iconset>
+   </property>
+   <property name="text">
+    <string>Replace</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionGogo">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/start.png</normaloff>:/icon/icon/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>Goto</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionCompile">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/compail_and_run.gif</normaloff>:/icon/icon/compail_and_run.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Compile</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/walk.png</normaloff>:/icon/icon/walk.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="actionCompile_And_Run">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/photo/1x/compail_and_run.gif</normaloff>:/icon/photo/1x/compail_and_run.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Compile And Run</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionStart_Debug">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/photo/1x/adb.png</normaloff>:/icon/photo/1x/adb.png</iconset>
+   </property>
+   <property name="text">
+    <string>Start Debug</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="actionExecute_Next_Line">
+   <property name="text">
+    <string>Execute Next Line</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="actionExecute_Next_Function">
+   <property name="text">
+    <string>Execute Next Function</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F8</string>
+   </property>
+  </action>
+  <action name="actionGoto_Next_Breakpoint">
+   <property name="text">
+    <string>Goto Next Breakpoint</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F9</string>
+   </property>
+  </action>
+  <action name="actionEnd_Debug">
+   <property name="text">
+    <string>End Debug</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="actionBreakpoint">
+   <property name="text">
+    <string>Breakpoint</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F11</string>
+   </property>
+  </action>
+  <action name="actionWatch">
+   <property name="text">
+    <string>Watch</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>F12</string>
+   </property>
+  </action>
+  <action name="actionMessage_Window">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/icon2.png</normaloff>:/icon/icon/icon2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Message Window</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actiontool_Window">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/icon2.png</normaloff>:/icon/icon/icon2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tools Box</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionProject_Windows">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/icon2.png</normaloff>:/icon/icon/icon2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Project Windows</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionProparty_Window">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/icon2.png</normaloff>:/icon/icon/icon2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Property Window</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="text">
+    <string>Select All</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionTerminal_Window">
+   <property name="text">
+    <string>Terminal Window</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSimple_Python_Project">
+   <property name="text">
+    <string>Simple Python Application</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionQT_GUI_Application">
+   <property name="text">
+    <string>QT GUI Application</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionsy">
+   <property name="text">
+    <string>sy</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon_qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/icon2.png</file>
+    <file>icon/adb.png</file>
+    <file>icon/close.png</file>
+    <file>icon/compail.gif</file>
+    <file>icon/compail_and_run.gif</file>
+    <file>icon/copy.png</file>
+    <file>icon/cut.png</file>
+    <file>icon/logout.png</file>
+    <file>icon/open.png</file>
+    <file>icon/open_folder.png</file>
+    <file>icon/paste.png</file>
+    <file>icon/paste1.png</file>
+    <file>icon/redo.png</file>
+    <file>icon/replace.png</file>
+    <file>icon/save.png</file>
+    <file>icon/save_as.png</file>
+    <file>icon/search.png</file>
+    <file>icon/seprator.png</file>
+    <file>icon/start.png</file>
+    <file>icon/undo.png</file>
+    <file>icon/walk.png</file>
+  </qresource>
+</RCC>

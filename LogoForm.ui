@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ezapiya IDE</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>349</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>GCC Is Not Found in AppData Folder </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btncopy">
+       <property name="text">
+        <string>Install</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>420</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>421</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>E:/eZapiya/logo/IDE_Logo.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo_qrc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>336</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

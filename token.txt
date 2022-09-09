@@ -1,0 +1,27 @@
+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
+
+pyinstaller --hidden-import=PyQt5.QtPrintSupport --onefile --windowed D:\Ezapiya-IDE_in_python\main.py
+
+pyinstaller --hidden-import=PyQt5.QtPrintSupport --onefile --windowed -i=logo32into32.ico D:\Ezapiya-IDE_in_python\main.py
+pyinstaller --hidden-import=PyQt5.QtPrintSupport --onefile --windowed -i=logo32into32.ico C:\Users\ap\PycharmProjects\tushar\IDE_Project\EzapiyaIDE.py
+
+
+D:\Ezapiya-IDE_in_python\venv\main.py\Scripts\python.exe D:/Ezapiya-IDE_in_python/main.py E:\Temp\cpro\abc.c
+
+
+
+
+pycparser
+https://wiki.python.org/moin/LanguageParsing
+
+symbolic backtraces
+
+
+https://pypi.org/project/py7zr/
+
+pip install pyqt5
+pip install pyinstaller
+pip install QScintilla
+pip install pyunpack
+pip install patool
+pip install  py7zr
